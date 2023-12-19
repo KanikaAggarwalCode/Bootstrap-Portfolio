@@ -1,3 +1,18 @@
-.navlink a{
-    color: blue;
+.card  {
+    max-height: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgray;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .flex-list {
+      flex-direction: column;
+    }
+  }
